@@ -1,0 +1,12 @@
+{
+    "actorSpecification": 1,
+    "name": "federal-register-tracker",
+    "title": "Federal Register Tracker — New Rules & Comment Deadlines",
+    "description": "Search newly published Federal Register documents by keyword, agency, or document type. Get proposed rules, final rules, and notices with public comment deadlines — official U.S. government data.",
+    "version": "0.1",
+    "meta": {
+        "templateId": "custom-no-proxy"
+    },
+    "input": "./input_schema.json",
+    "dockerfile": "../Dockerfile"
+}

@@ -1,0 +1,46 @@
+{
+    "title": "Federal Register Tracker Input",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "keyword": {
+            "title": "Keyword",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Free-text search across document titles and text (e.g. \"data privacy\", \"emissions standards\"). Leave blank to skip."
+        },
+        "agencySlug": {
+            "title": "Agency",
+            "type": "string",
+            "editor": "textfield",
+            "description": "Limit to one agency, using its Federal Register slug (e.g. \"environmental-protection-agency\", \"securities-and-exchange-commission\", \"food-and-drug-administration\"). Find the exact slug in the agency's federalregister.gov URL. Leave blank for all agencies."
+        },
+        "documentType": {
+            "title": "Document type",
+            "type": "string",
+            "editor": "select",
+            "description": "RULE = final rule (already in effect or scheduled), PRORULE = proposed rule (open for public comment), NOTICE = agency notice, PRESDOCU = presidential document.",
+            "enum": ["all", "RULE", "PRORULE", "NOTICE", "PRESDOCU"],
+            "enumTitles": ["All types", "Final Rule", "Proposed Rule", "Notice", "Presidential Document"],
+            "default": "all"
+        },
+        "daysBack": {
+            "title": "Days back",
+            "type": "integer",
+            "editor": "number",
+            "description": "How many days back from today to search, by publication date.",
+            "default": 14,
+            "minimum": 1,
+            "maximum": 180
+        },
+        "maxResults": {
+            "title": "Max results",
+            "type": "integer",
+            "editor": "number",
+            "description": "Maximum number of documents to return, most recently published first.",
+            "default": 25,
+            "minimum": 1,
+            "maximum": 100
+        }
+    }
+}
