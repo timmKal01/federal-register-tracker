@@ -1,6 +1,6 @@
 {
     "actorOutputSchemaVersion": 1,
-    "title": "Output schema of Federal Register Tracker — New Rules & Comment Deadlines",
+    "title": "Output schema of Federal Register Tracker: New Rules & Comment Deadlines",
     "description": "Results are pushed to the default dataset, one record per item.",
     "properties": {
         "results": {
