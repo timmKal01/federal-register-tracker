@@ -1,0 +1,58 @@
+{
+    "actorSpecification": 1,
+    "fields": {},
+    "views": {
+        "overview": {
+            "title": "Overview",
+            "transformation": {
+                "fields": [
+                    "documentNumber",
+                    "title",
+                    "type",
+                    "agencies",
+                    "publicationDate",
+                    "commentsCloseOn",
+                    "htmlUrl",
+                    "pdfUrl"
+                ]
+            },
+            "display": {
+                "component": "table",
+                "properties": {
+                    "documentNumber": {
+                        "label": "Document number",
+                        "format": "text"
+                    },
+                    "title": {
+                        "label": "Title",
+                        "format": "text"
+                    },
+                    "type": {
+                        "label": "Type",
+                        "format": "text"
+                    },
+                    "agencies": {
+                        "label": "Agencies",
+                        "format": "array"
+                    },
+                    "publicationDate": {
+                        "label": "Publication date",
+                        "format": "text"
+                    },
+                    "commentsCloseOn": {
+                        "label": "Comments close on",
+                        "format": "text"
+                    },
+                    "htmlUrl": {
+                        "label": "HTML URL",
+                        "format": "link"
+                    },
+                    "pdfUrl": {
+                        "label": "PDF URL",
+                        "format": "link"
+                    }
+                }
+            }
+        }
+    }
+}
