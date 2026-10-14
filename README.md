@@ -1,12 +1,24 @@
-# Federal Register Tracker — New Rules & Comment Deadlines
+# Federal Register Tracker: New Rules & Deadlines
 
-Search newly published Federal Register documents by keyword, agency, or
-document type. Get proposed rules, final rules, and notices — with public
-comment deadlines where they apply — instead of checking federalregister.gov
-by hand.
+New U.S. federal regulations for compliance, regulatory affairs and legal
+teams. Search the Federal Register by keyword, agency or document type and
+get newly published proposed rules, final rules and notices, with the
+public comment deadline where there is one.
 
-Built for compliance and regulatory affairs teams, lobbyists, and law firms
-tracking new rulemaking in their industry or agency.
+## What you get
+
+One row per document:
+
+- Title, type (proposed rule, final rule, notice) and issuing agencies
+- Publication date and comment deadline
+- The abstract
+- Links to the official HTML and PDF
+
+## Who this is for
+
+- **Compliance and regulatory affairs teams** tracking new rules that affect their industry.
+- **Law firms and lobbyists** following rulemaking by agency or topic.
+- **Trade associations and policy researchers** catching comment periods before they close.
 
 ## Input
 
