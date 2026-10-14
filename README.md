@@ -76,5 +76,5 @@ search returns 1 document or 100.
 
 Looking for other compliance/risk-monitoring signals?
 
-- [Product Recall Alert](https://github.com/timmKal01/product-recall-alert) — FDA drug/food/device recalls
-- [Vulnerability Alert](https://github.com/timmKal01/vulnerability-alert) — new CVEs by product and severity
+- [FDA Recall Tracker](https://apify.com/m_ctim/product-recall-alert): FDA drug/food/device recalls
+- [CVE Tracker](https://apify.com/m_ctim/vulnerability-alert): new CVEs by product and severity
